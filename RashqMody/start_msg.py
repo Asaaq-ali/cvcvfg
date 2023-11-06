@@ -37,7 +37,7 @@ ID : `{msg.from_user.id}`'''
             [btn(text='اضغط هنا للتحقق', callback_data='send_code')], 
         ]
     )
-        rk =f'''︎• **مرحبا بك {msg.from_user.mention} في بوت رشق الفراعنة**
+        rk =f'''︎• **مرحبا بك {msg.from_user.mention} في بوت رشق العلم**
 
 • **بما انك عضو جديد في البوت ينبغي التحقق من انك لست روبوت ، رجاء اضغط علي الزر بالاسفل'''
         await app.send_message(msg.from_user.id,rk, reply_markup=keys)
